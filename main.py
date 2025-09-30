@@ -1,8 +1,4 @@
-student_name = "fateme"
+from core.chatbot_cli import run_chatbot
 
-print("hello, world!")
-print(f"welcome, {student_name}!")
-
-task_for_today = ["first code", "virtual env" , "install python"]
-print("today works:")
-print(task_for_today)
+if __name__ == "__main__":
+    run_chatbot()
